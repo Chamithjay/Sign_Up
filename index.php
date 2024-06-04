@@ -22,11 +22,11 @@
             </div>
             <div id="birthday">
                 <label>Date of birth:</label><br>
-                <input type="date" name="dob" id='dob' >
+                <input type="date" name="dob" id='dob'>
             </div>
             <div id="gender">
                 <label>Gender:</label><br>
-                <input type="radio" name="gender" id='gender' value="Male">Male
+                <input type="radio" name="gender" id='gender' value="Male" >Male
                 <input type="radio" name="gender" id='gender' value="Female">Female
                 <input type="radio" name="gender" id='gender' value="Other">Other
             </div>
