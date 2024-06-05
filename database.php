@@ -7,7 +7,7 @@
     $LastName=$_POST['LastName'];
     $pwd=$_POST['pwd'];
     $dob=$_POST['dob'];
-    $gender=$_POST['gender'];
+    $gender=$_POST['gender']=array('Male','Female','Other');
 
     //validation
     $patternFname='/^[A-Z][a-z]+$/';
@@ -28,6 +28,7 @@
         echo "<h2>Invalid Password</h2>";
     }
     else if(!preg_match($patternGender,$gender)){
-        echo "<h2>Fill the Gender</h2>";
+        echo "<h2>Gender Field is required</h2>";
     }
+    
 ?>
