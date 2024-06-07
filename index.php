@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="signUp.css">
     <script src='index.js'></script>
     
 </head>
@@ -43,7 +43,7 @@
             <div id="submit">
                 <input type="submit" name="submit" id='submit' value="Submit" onclick="return error()">
         </form>
-    </div>        
+    </div>      
 
     
 </body>

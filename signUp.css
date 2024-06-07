@@ -1,5 +1,5 @@
 body{
-    background-image: url('back.jpg');
+    background-image: url('./Images/back.jpg');
     background-size: cover;
     background-repeat: none;
 }
@@ -8,6 +8,7 @@ body{
     width: fit-content;
     padding: 3.255vw;
     border-radius: 40px;
+    display: flex;
     
 }
  
