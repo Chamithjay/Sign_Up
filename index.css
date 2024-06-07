@@ -1,0 +1,18 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+#form{
+    background: rgba(98, 89, 64, 0.6);
+    width: fit-content;
+    padding: 3.255vw;
+    border-radius: 40px;
+    
+}
+ 
+#input1 input{
+    border-radius: 20px;
+    border: none;
+    height:30px;
+}

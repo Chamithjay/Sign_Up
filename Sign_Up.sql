@@ -6,5 +6,6 @@ CREATE TABLE sign_up(
     lastname VARCHAR(10),
     pwd VARCHAR(100),
     date_of_birth DATE,
-    gender ENUM('Male','Female','Other')
+    gender VARCHAR(10)
 );
+select * from sign_up;
