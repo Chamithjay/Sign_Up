@@ -24,7 +24,7 @@
                 </div>
                 <div id="Pwd">
                     <label>Password:</label><br>
-                    <input type="password" name="pwd" id='pwd' ><br>
+                    <input type="password" name="pwd" id='pwd' minlength="8"><br>
                     <p id='pwd_error'></p>
                 </div>
                 <div id="birthday">
