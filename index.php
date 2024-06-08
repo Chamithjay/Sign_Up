@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="signUp.css">
+    <link rel="stylesheet" href="index.css">
     <script src='index.js'></script>
     
 </head>
@@ -24,7 +24,7 @@
                 </div>
                 <div id="Pwd">
                     <label>Password:</label><br>
-                    <input type="password" name="pwd" id='pwd' minlength="4"><br>
+                    <input type="password" name="pwd" id='pwd' minlength="4" placeholder='Password'><br>
                     <p id='pwd_error'></p>
                 </div>
                 <div id="birthday">
@@ -35,9 +35,9 @@
             </div>
             <div id="Gender">
                 <label>Gender:</label><br>
-                <input type="radio" name="gender" id='gender' value="Male" >Male
-                <input type="radio" name="gender" id='gender' value="Female">Female
-                <input type="radio" name="gender" id='gender' value="Other">Other<br>
+                <input type="radio" name="gender" id='gender' value="Male" ><p1>Male</p1>
+                <input type="radio" name="gender" id='gender' value="Female"><p1>Female</p1>
+                <input type="radio" name="gender" id='gender' value="Other"><p1>Other</p1><br>
                 <p id='gender_error'></p>
             </div>
             <div id="submit">
