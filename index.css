@@ -33,12 +33,14 @@ body{
     border: none;
     height:35px;
     width:20em;
-    
-    
+    text-align: center;   
+    font-family:'Space Mono', monospace ;     
 }
-#input1 input placeholder{
-    color: white;
-}
+::placeholder {
+    color: rgb(66, 65, 65);
+    text-align: center;   
+    font-family:'Space Mono', monospace ;
+  }
 #form label{
     color: white;
     font-size: 1.2em;

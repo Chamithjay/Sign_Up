@@ -13,22 +13,22 @@
         <form id='innerForm' action="database.php" method="POST">
             <div id='input1'>
                 <div id="firstName">
-                    <label>First Name:</label><br>
+                    <label for='FirstName'>First Name:</label><br>
                     <input type="text" name="FirstName" id='FirstName' placeholder='First Name'><br>
                     <p id='fname_error'></p>
                 </div>
                 <div id="lastName">
-                    <label>Last Name:</label><br>
+                    <label for='LastName'>Last Name:</label><br>
                     <input type="text" name="LastName" id='LastName' placeholder='Last Name'><br>
                     <p id='lname_error'></p>
                 </div>
                 <div id="Pwd">
-                    <label>Password:</label><br>
-                    <input type="password" name="pwd" id='pwd' minlength="4" placeholder='Password'><br>
+                    <label for='pwd'>Password:</label><br>
+                    <input type="password" name="pwd" id='pwd' placeholder='Password'><br>
                     <p id='pwd_error'></p>
                 </div>
                 <div id="birthday">
-                    <label>Date of birth:</label><br>
+                    <label for='dob'>Date of birth:</label><br>
                     <input type="date" name="dob" id='dob'>
                     <p id='dob_error'></p>
                 </div>
@@ -41,7 +41,7 @@
                 <p id='gender_error'></p>
             </div>
             <div id="submit">
-                <input type="submit" name="submit" id='submit' value="Submit" onclick="return error()">
+                <input type="submit" name="submit" id='submit' value="Sign Up" onclick="return error()">
         </form>
     </div>      
 
