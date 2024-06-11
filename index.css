@@ -67,8 +67,9 @@ body{
     background-color: white;
     color:  rgb(220,111,89);
     letter-spacing: 2px;
-    font-weight: bolder ;
-   
- 
-
+    font-weight: bolder ; 
+}
+#Gender input {
+    border: 2px solid rgb(220,111,89);
+    cursor: pointer;
 }

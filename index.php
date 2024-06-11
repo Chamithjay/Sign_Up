@@ -34,11 +34,11 @@
                 </div>
             </div>
             <div id="Gender">
-                <label>Gender:</label><br>
-                <input type="radio" name="gender" id='gender' value="Male" ><p1>Male</p1>
-                <input type="radio" name="gender" id='gender' value="Female"><p1>Female</p1>
-                <input type="radio" name="gender" id='gender' value="Other"><p1>Other</p1><br>
-                <p id='gender_error'></p>
+                <label>Gender:<br>
+                <input type="radio" name="gender" id='gender' value="Male" ><p1>Male</p1><span></span>
+                <input type="radio" name="gender" id='gender' value="Female"><p1>Female</p1><span></span>
+                <input type="radio" name="gender" id='gender' value="Other"><p1>Other</p1><br><span></span>
+                <p id='gender_error'></p></label>
             </div>
             <div id="submit">
                 <input type="submit" name="submit" id='submit' value="Sign Up" onclick="return error()">

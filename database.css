@@ -1,0 +1,21 @@
+body{
+    background-image: url('./Images/back.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+#frame{
+background: rgba(26, 50 ,97, 0.8);
+    width: fit-content;
+    padding: 3.255vw;
+    border-radius: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18vw;
+    box-shadow: 0 0 10px 5px rgba(92, 86, 86, 0.3);
+}
+h2{
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Space Mono', monospace;
+}
