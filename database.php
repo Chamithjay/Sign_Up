@@ -11,10 +11,10 @@
         <?php
             //connect to the database
             $env = parse_ini_file('.env');
-            $host='localhost';
-            $user='Chamitha';
-            $password=$env["PASS"];
-            $db='sign_up';
+            $host='localhost';//change the host to your host
+            $user='Chamitha';//change the user to your user
+            $password=$env["PASS"];//change the password to your password
+            $db='sign_up';//change the database to your database
 
         
             $con=new mysqli($host,$user,$password,$db);
