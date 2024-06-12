@@ -9,3 +9,4 @@ CREATE TABLE sign_up(
     gender VARCHAR(10)
 );
 select * from sign_up;
+
